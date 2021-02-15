@@ -8,13 +8,60 @@
   </head>
 
   <body>
-    <form>
+    <form action="https://dev.cotenfrontend.pl" class="form" method="POST" >
       <h1>Formularz zapisu</h1>
       <p>
           <label> Your name:
-        <input id="fistName" type="text" value="wpisz coś" placeholder="Please your name" name="firstName" >
+        <input id="fistName"  type="range" min="0" max="20" step="1" value="wpisz coś" placeholder="Please your name" name="firstName" >
     </label>
       </p>
+
+
+      <p>
+<fieldset class="fieldset">
+  <legend>Formularz</legend>
+  
+  <p>
+  <label><input type="radio" name="iceCream" value="chocolate">chocolate</label>
+   </p>
+
+  <p>
+      <label><input type="radio" name="iceCream" value="lemon">lemon</label>
+  </p>
+  <p>
+    <label><input type="radio" name="iceCream" value="orange">orange</label>
+</p>
+
+</fieldset>
+    </p>
+
+    <p>
+      <label>
+      <input type="checkbox" checked name="agreement">I agree</label>
+       </p>
+      
+       <p>
+        <label> Your name:
+      <input id="fistName" type="range" min="0" max="20" step="1" value="wpisz coś" placeholder="Please your name" name="firstName" >
+  </label>
+    </p>
+    <p>
+    <label for="band"> Your favourite game:</label>
+      <select name="band">
+        <option value="band_1">Horizon Zero Dawn</option>
+        <option value="band_2">God of War</option>
+        <option value="band_3">Wiedźmin</option>
+    </select>
+  </p>
+    <p>
+ <label for="YourStory">Your story:</label>
+ <textarea id="YourStory" required name="YourStory"></textarea>
+  </p>
+
+  <p>
+   <input name="agreement" checked type="submit" value="send"/>
+     </p>
+
     </form>
   </body>
 </html>

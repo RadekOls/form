@@ -1,0 +1,17 @@
+.body{
+    
+}
+
+form{
+    background-color: #99CCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.fieldset{
+    width: 25%;
+}
+
